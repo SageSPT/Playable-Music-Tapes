@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PlayableMusicTapes</AssemblyName>
+    <RootNamespace>PlayableMusicTapes.Server</RootNamespace>
+    <Version>1.0.0</Version>
+    <Company>Sage</Company>
+    <Product>Playable Music Tapes</Product>
+
+    <DebugType>none</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+
+    <ModDir>$(RuntimeDir)\user\mods\PlayableMusicTapes\</ModDir>
+    <ModDir Condition="'$(BuildModRelease)' == 'true'">$(ReleaseRoot)PlayableMusicTapes-$(Version)\SPT_Runtime\user\mods\PlayableMusicTapes\</ModDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(RuntimeDir)\SPTarkov.Server.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>$(RuntimeDir)\SPTarkov.DI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>$(RuntimeDir)\SPTarkov.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>$(RuntimeDir)\SemanticVersioning.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(RuntimeDir)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="db\**" />
+    <None Remove="bundles\**" />
+    <None Remove="images\**" />
+  </ItemGroup>
+
+  <Target Name="DeployToSPT" AfterTargets="Build"
+          Condition="('$(DeployToSPT)' == 'true' AND Exists('$(RuntimeDir)\user\mods')) OR '$(BuildModRelease)' == 'true'">
+    <ItemGroup>
+      <DbFiles Include="db\**\*.*" />
+      <BundleFiles Include="bundles\**\*.bundle" />
+      <ImageFiles Include="images\**\*.*" />
+    </ItemGroup>
+    <MakeDir Directories="$(ModDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModDir)" />
+    <Copy SourceFiles="tapes-bundles.json;config.json" DestinationFolder="$(ModDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(DbFiles)" DestinationFiles="@(DbFiles->'$(ModDir)db\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(BundleFiles)" DestinationFiles="@(BundleFiles->'$(ModDir)bundles\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(ImageFiles)" DestinationFiles="@(ImageFiles->'$(ModDir)images\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="PlayableMusicTapes -> $(ModDir)" />
+  </Target>
+
+</Project>

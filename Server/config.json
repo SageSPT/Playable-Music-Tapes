@@ -1,0 +1,60 @@
+{
+  "trader": "5c0647fdd443bc2504c2d371",
+  "recorderOffer": { "price": 25000, "loyaltyLevel": 1, "stock": 3, "buyLimit": 1 },
+  "loot": {
+    "recorderChance": {
+      "578f87b7245977356274f2cd": 0.002,
+      "59139c2186f77411564f8e42": 0.004
+    }
+  },
+  "starterGift": { "enabled": true, "tapes": ["6a0e5a7c0b1d4e2f3a5c7003"] },
+  "tapesFitIn": ["5d235bb686f77443f4331278", "590c60fc86f77412b13fddcf"],
+  "hallOfFame": {
+    "stashes": ["63dbd45917fff4dee40fe16e", "65424185a57eea37ed6562e9", "6542435ea57eea37ed6562f0"],
+    "slotPrefix": "smallTrophies"
+  },
+  "tapeSources": {
+    "6a0e5a7c0b1d4e2f3a5c7001": {
+      "loot": {
+        "locations": ["tarkovstreets", "sandbox", "sandbox_high"],
+        "containers": {
+          "578f8778245977358849a9b5": 0.025,
+          "578f87b7245977356274f2cd": 0.025,
+          "578f87a3245977356274f2cb": 0.05,
+          "658420d8085fea07e674cdb6": 0.05
+        }
+      }
+    },
+    "6a0e5a7c0b1d4e2f3a5c7004": {
+      "barters": [{
+        "trader": "5a7c2eca46aef81a7ca2145d", "loyaltyLevel": 1, "stock": 1, "buyLimit": 1,
+        "items": {
+          "5c13cef886f774072e618e82": 1,
+          "59e3658a86f7741776641ac4": 1,
+          "5d1b392c86f77425243e98fe": 1,
+          "56742c324bdc2d150f8b456d": 1
+        }
+      }]
+    },
+    "6a0e5a7c0b1d4e2f3a5c7005": {
+      "craft": {
+        "areaType": 11, "areaLevel": 1, "seconds": 7200,
+        "items": {
+          "5c06779c86f77426e00dd782": 2,
+          "590a3b0486f7743954552bdb": 1,
+          "5c06782b86f77426df5407d2": 2,
+          "590a386e86f77429692b27ab": 1
+        }
+      }
+    },
+    "6a0e5a7c0b1d4e2f3a5c7006": {
+      "offers": [{ "trader": "54cb57776803fa99248b456e", "price": 100000, "loyaltyLevel": 1, "stock": 2, "buyLimit": 1 }],
+      "flea": true
+    },
+    "6a0e5a7c0b1d4e2f3a5c7007": {
+      "questRewards": ["5bc4776586f774512d07cf05"],
+      "offers": [{ "trader": "5c0647fdd443bc2504c2d371", "price": 100000, "loyaltyLevel": 3, "stock": 2, "buyLimit": 1 }],
+      "flea": false
+    }
+  }
+}

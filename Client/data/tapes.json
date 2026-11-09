@@ -1,0 +1,411 @@
+{
+  "recorder": "6a0e5a7c0b1d4e2f3a5c7000",
+  "slot": "mod_tape",
+  "playback": {
+    "minDistance": 1.5,
+    "maxDistance": 25.0
+  },
+  "tapes": [
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7001",
+      "tapeId": "echoes",
+      "title": "Echoes of a Better Time",
+      "bundle": "assets/content/audio/playabletapes/echoes.bundle",
+      "filter": "Walkman",
+      "tracks": [
+        {
+          "asset": "echoes_01",
+          "artist": "Jimi Hendrix",
+          "title": "All Along the Watchtower",
+          "year": 1968,
+          "length": 241.21
+        },
+        {
+          "asset": "echoes_02",
+          "artist": "Men at Work",
+          "title": "Who Can It Be Now?",
+          "year": 1981,
+          "length": 201.43
+        },
+        {
+          "asset": "echoes_03",
+          "artist": "Nirvana",
+          "title": "Heart-Shaped Box",
+          "year": 1993,
+          "length": 282.6
+        },
+        {
+          "asset": "echoes_04",
+          "artist": "Queen",
+          "title": "Under Pressure",
+          "year": 1981,
+          "length": 248.72
+        },
+        {
+          "asset": "echoes_05",
+          "artist": "Rick Astley",
+          "title": "Never Gonna Give You Up",
+          "year": 1987,
+          "length": 213.16
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7002",
+      "tapeId": "wasteland_tales",
+      "title": "Wasteland Tales",
+      "bundle": "assets/content/audio/playabletapes/wasteland_tales.bundle",
+      "filter": "WornCassette",
+      "tracks": [
+        {
+          "asset": "wasteland_tales_01",
+          "artist": "Marty Robbins",
+          "title": "Big Iron",
+          "year": 1959,
+          "length": 237.26
+        },
+        {
+          "asset": "wasteland_tales_02",
+          "artist": "Eddy Arnold",
+          "title": "It's a Sin",
+          "year": 1947,
+          "length": 146.09
+        },
+        {
+          "asset": "wasteland_tales_03",
+          "artist": "Frank Sinatra",
+          "title": "Blue Moon",
+          "year": 1961,
+          "length": 170.37
+        },
+        {
+          "asset": "wasteland_tales_04",
+          "artist": "Dion",
+          "title": "The Wanderer",
+          "year": 1961,
+          "length": 163.72
+        },
+        {
+          "asset": "wasteland_tales_05",
+          "artist": "Sam Cooke",
+          "title": "Chain Gang",
+          "year": 1960,
+          "length": 161.07
+        },
+        {
+          "asset": "wasteland_tales_06",
+          "artist": "Skeeter Davis",
+          "title": "The End of the World",
+          "year": 1962,
+          "length": 155.77
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7003",
+      "tapeId": "ozzy_colin",
+      "title": "Ozzy & Colin's Mix",
+      "bundle": "assets/content/audio/playabletapes/ozzy_colin.bundle",
+      "filter": "Clean",
+      "tracks": [
+        {
+          "asset": "ozzy_colin_01",
+          "artist": "Electric Light Orchestra",
+          "title": "Mr. Blue Sky",
+          "year": 1977,
+          "length": 304.04
+        },
+        {
+          "asset": "ozzy_colin_02",
+          "artist": "Cheap Trick",
+          "title": "Surrender",
+          "year": 1978,
+          "length": 255.29
+        },
+        {
+          "asset": "ozzy_colin_03",
+          "artist": "Ozzy Osbourne",
+          "title": "Mama, I'm Coming Home",
+          "year": 1991,
+          "length": 251.87
+        },
+        {
+          "asset": "ozzy_colin_04",
+          "artist": "The Rolling Stones",
+          "title": "Paint It, Black",
+          "year": 1966,
+          "length": 202.52
+        },
+        {
+          "asset": "ozzy_colin_05",
+          "artist": "Redbone",
+          "title": "Come and Get Your Love",
+          "year": 1973,
+          "length": 207.47
+        },
+        {
+          "asset": "ozzy_colin_06",
+          "artist": "Europe",
+          "title": "The Final Countdown",
+          "year": 1986,
+          "length": 307.34
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7004",
+      "tapeId": "humanslop",
+      "title": "HumanSlop",
+      "bundle": "assets/content/audio/playabletapes/humanslop.bundle",
+      "filter": "Walkman",
+      "tracks": [
+        {
+          "asset": "humanslop_01",
+          "artist": "Van Halen",
+          "title": "Ain't Talkin' 'Bout Love",
+          "year": 1978,
+          "length": 227.8
+        },
+        {
+          "asset": "humanslop_02",
+          "artist": "Deftones",
+          "title": "Be Quiet and Drive (Far Away)",
+          "year": 1997,
+          "length": 210.87
+        },
+        {
+          "asset": "humanslop_03",
+          "artist": "Elton John",
+          "title": "I'm Still Standing",
+          "year": 1983,
+          "length": 181.97
+        },
+        {
+          "asset": "humanslop_04",
+          "artist": "Kiss",
+          "title": "I Was Made for Lovin' You",
+          "year": 1979,
+          "length": 273.81
+        },
+        {
+          "asset": "humanslop_05",
+          "artist": "Blue \u00d6yster Cult",
+          "title": "(Don't Fear) The Reaper",
+          "year": 1976,
+          "length": 308.93
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7005",
+      "tapeId": "cybertechnics",
+      "title": "Cybertechnics",
+      "bundle": "assets/content/audio/playabletapes/cybertechnics.bundle",
+      "filter": "SmallSpeaker",
+      "tracks": [
+        {
+          "asset": "cybertechnics_01",
+          "artist": "Petite Meller",
+          "title": "High Forever (Marlon Hoffstadt Remix)",
+          "year": 2026,
+          "length": 229.17
+        },
+        {
+          "asset": "cybertechnics_02",
+          "artist": "P.T. Adamczyk",
+          "title": "The Rebel Path",
+          "year": 2020,
+          "length": 260.41
+        },
+        {
+          "asset": "cybertechnics_03",
+          "artist": "P.T. Adamczyk, Sora Lion",
+          "title": "Hardest to Be",
+          "year": 2023,
+          "length": 203.17
+        },
+        {
+          "asset": "cybertechnics_04",
+          "artist": "P.T. Adamczyk",
+          "title": "The Heist",
+          "year": 2020,
+          "length": 143.89
+        },
+        {
+          "asset": "cybertechnics_05",
+          "artist": "Rosa Walton, Hallie Coggins",
+          "title": "I Really Want to Stay at Your House",
+          "year": 2020,
+          "length": 246.64
+        },
+        {
+          "asset": "cybertechnics_06",
+          "artist": "SAMURAI, Refused",
+          "title": "Never Fade Away",
+          "year": 2020,
+          "length": 190.19
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7006",
+      "tapeId": "sagiku",
+      "title": "Sagiku",
+      "bundle": "assets/content/audio/playabletapes/sagiku.bundle",
+      "filter": "Clean",
+      "tracks": [
+        {
+          "asset": "sagiku_01",
+          "artist": "Hatsune Miku",
+          "title": "Miku",
+          "year": 2016,
+          "length": 218.69
+        },
+        {
+          "asset": "sagiku_02",
+          "artist": "Hatsune Miku",
+          "title": "Hand in Hand",
+          "year": 2015,
+          "length": 312.41
+        },
+        {
+          "asset": "sagiku_03",
+          "artist": "Hatsune Miku",
+          "title": "M@GICAL\u2606CURE! LOVE \u2665 SHOT!",
+          "year": 2022,
+          "length": 209.82
+        },
+        {
+          "asset": "sagiku_04",
+          "artist": "Hatsune Miku & Kasane Teto",
+          "title": "Mesmerizer",
+          "year": 2024,
+          "length": 156.97
+        },
+        {
+          "asset": "sagiku_05",
+          "artist": "Hatsune Miku",
+          "title": "PoPiPo",
+          "year": 2008,
+          "length": 179.84
+        },
+        {
+          "asset": "sagiku_06",
+          "artist": "Hatsune Miku",
+          "title": "Tell Your World",
+          "year": 2012,
+          "length": 254.65
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7007",
+      "tapeId": "jaegers_favorites",
+      "title": "Jaeger's Favorites",
+      "bundle": "assets/content/audio/playabletapes/jaegers_favorites.bundle",
+      "filter": "WornCassette",
+      "tracks": [
+        {
+          "asset": "jaegers_favorites_01",
+          "artist": "\u041a\u0438\u043d\u043e",
+          "title": "\u0421\u043f\u043e\u043a\u043e\u0439\u043d\u0430\u044f \u043d\u043e\u0447\u044c",
+          "year": 1988,
+          "length": 382.83
+        },
+        {
+          "asset": "jaegers_favorites_02",
+          "artist": "Michael Jackson",
+          "title": "Smooth Criminal",
+          "year": 1987,
+          "length": 257.88
+        },
+        {
+          "asset": "jaegers_favorites_03",
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "year": 1994,
+          "length": 308.01
+        },
+        {
+          "asset": "jaegers_favorites_04",
+          "artist": "The Offspring",
+          "title": "Gone Away",
+          "year": 1997,
+          "length": 269.82
+        },
+        {
+          "asset": "jaegers_favorites_05",
+          "artist": "ABBA",
+          "title": "Gimme! Gimme! Gimme!",
+          "year": 1979,
+          "length": 196.42
+        }
+      ]
+    },
+    {
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7008",
+      "tapeId": "skyrim",
+      "title": "The Elder Scrolls V: Skyrim",
+      "bundle": "assets/content/audio/playabletapes/skyrim.bundle",
+      "filter": "Clean",
+      "tracks": [
+        {
+          "asset": "skyrim_01",
+          "artist": "Jeremy Soule",
+          "title": "Ancient Stones",
+          "year": 2011,
+          "length": 285.55
+        },
+        {
+          "asset": "skyrim_02",
+          "artist": "Jeremy Soule",
+          "title": "Awake",
+          "year": 2011,
+          "length": 92.91
+        },
+        {
+          "asset": "skyrim_03",
+          "artist": "Jeremy Soule",
+          "title": "Distant Horizons",
+          "year": 2011,
+          "length": 232.88
+        },
+        {
+          "asset": "skyrim_04",
+          "artist": "Jeremy Soule",
+          "title": "Dragonborn",
+          "year": 2011,
+          "length": 235.65
+        },
+        {
+          "asset": "skyrim_05",
+          "artist": "Jeremy Soule",
+          "title": "Far Horizons",
+          "year": 2011,
+          "length": 331.5
+        },
+        {
+          "asset": "skyrim_06",
+          "artist": "Jeremy Soule",
+          "title": "From Past to Present",
+          "year": 2011,
+          "length": 304.03
+        },
+        {
+          "asset": "skyrim_07",
+          "artist": "Jeremy Soule",
+          "title": "Secunda",
+          "year": 2011,
+          "length": 123.24
+        },
+        {
+          "asset": "skyrim_08",
+          "artist": "Jeremy Soule",
+          "title": "Unbroken Road",
+          "year": 2011,
+          "length": 384.18
+        }
+      ]
+    }
+  ]
+}

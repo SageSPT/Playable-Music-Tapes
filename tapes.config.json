@@ -1,0 +1,424 @@
+{
+  "trader": "5c0647fdd443bc2504c2d371",
+  "recorder": {
+    "tpl": "6a0e5a7c0b1d4e2f3a5c7000",
+    "slotId": "6a0e5a7c0b1d4e2f3a5c70a0",
+    "name": "Mixtape player",
+    "shortName": "Mixtape",
+    "description": "A portable cassette player with a faded 80s stripe. Slot a tape in and press play.",
+    "price": 25000
+  },
+  "tapes": [
+    {
+      "id": "echoes",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7001",
+      "title": "Echoes of a Better Time",
+      "shortName": "Echoes",
+      "folder": "01 - Echoes of a Better Time",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "Walkman",
+      "tracks": [
+        {
+          "file": "01 - Echoes of a Better Time/Jimi Hendrix - All Along The Watchtower.mp3",
+          "artist": "Jimi Hendrix",
+          "title": "All Along the Watchtower",
+          "year": 1968
+        },
+        {
+          "file": "01 - Echoes of a Better Time/Men At Work - Who Can It Be Now.mp3",
+          "artist": "Men at Work",
+          "title": "Who Can It Be Now?",
+          "year": 1981
+        },
+        {
+          "file": "01 - Echoes of a Better Time/Nirvana - Heart-Shaped Box.mp3",
+          "artist": "Nirvana",
+          "title": "Heart-Shaped Box",
+          "year": 1993
+        },
+        {
+          "file": "01 - Echoes of a Better Time/Queen - Under Pressure.mp3",
+          "artist": "Queen",
+          "title": "Under Pressure",
+          "year": 1981
+        },
+        {
+          "file": "01 - Echoes of a Better Time/Rick Astley - Never Gonna Give You Up.mp3",
+          "artist": "Rick Astley",
+          "title": "Never Gonna Give You Up",
+          "year": 1987
+        }
+      ]
+    },
+    {
+      "id": "wasteland_tales",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7002",
+      "title": "Wasteland Tales",
+      "shortName": "W. Tales",
+      "folder": "02 - Wasteland Tales",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "WornCassette",
+      "tracks": [
+        {
+          "file": "02 - Wasteland Tales/Marty Robbins - Big Iron (1959).mp3",
+          "artist": "Marty Robbins",
+          "title": "Big Iron",
+          "year": 1959
+        },
+        {
+          "file": "02 - Wasteland Tales/Eddy Arnold - It's a Sin.mp3",
+          "artist": "Eddy Arnold",
+          "title": "It's a Sin",
+          "year": 1947
+        },
+        {
+          "file": "02 - Wasteland Tales/Frank Sinatra - Blue Moon.mp3",
+          "artist": "Frank Sinatra",
+          "title": "Blue Moon",
+          "year": 1961
+        },
+        {
+          "file": "02 - Wasteland Tales/Dion - The Wanderer.mp3",
+          "artist": "Dion",
+          "title": "The Wanderer",
+          "year": 1961
+        },
+        {
+          "file": "02 - Wasteland Tales/Sam Cooke - Chain Gang.mp3",
+          "artist": "Sam Cooke",
+          "title": "Chain Gang",
+          "year": 1960
+        },
+        {
+          "file": "02 - Wasteland Tales/Skeeter Davis - The End of the World.mp3",
+          "artist": "Skeeter Davis",
+          "title": "The End of the World",
+          "year": 1962
+        }
+      ],
+      "achievement": {
+        "id": "6a0e5a7c0b1d4e2f3a5c70d0",
+        "name": "Big Iron on His Hip",
+        "description": "Kill 20 enemies (scavs, raiders, bosses or PMCs) with the RSh-12 revolver while wearing the cowboy hat. Reward: Mixtape \"Wasteland Tales\".",
+        "kills": 20,
+        "target": "Any",
+        "weapon": [
+          "633ec7c2a6918cb895019c6c"
+        ],
+        "equipment": [
+          "5aa2b9ede5b5b000137b758b"
+        ],
+        "rarity": "Legendary",
+        "image": "playabletapes_big_iron"
+      }
+    },
+    {
+      "id": "ozzy_colin",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7003",
+      "title": "Ozzy & Colin's Mix",
+      "shortName": "OzzyColin",
+      "folder": "03 - Ozzy & Colin's Mix",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "Clean",
+      "tracks": [
+        {
+          "file": "03 - Ozzy & Colin's Mix/Electric Light Orchestra - Mr. Blue Sky (1977).mp3",
+          "artist": "Electric Light Orchestra",
+          "title": "Mr. Blue Sky",
+          "year": 1977
+        },
+        {
+          "file": "03 - Ozzy & Colin's Mix/Cheap Trick - Surrender.mp3",
+          "artist": "Cheap Trick",
+          "title": "Surrender",
+          "year": 1978
+        },
+        {
+          "file": "03 - Ozzy & Colin's Mix/Ozzy Osbourne - Mama, I'm Coming Home.mp3",
+          "artist": "Ozzy Osbourne",
+          "title": "Mama, I'm Coming Home",
+          "year": 1991
+        },
+        {
+          "file": "03 - Ozzy & Colin's Mix/The Rolling Stones - Paint It, Black.mp3",
+          "artist": "The Rolling Stones",
+          "title": "Paint It, Black",
+          "year": 1966
+        },
+        {
+          "file": "03 - Ozzy & Colin's Mix/Redbone - Come and Get Your Love (1973).mp3",
+          "artist": "Redbone",
+          "title": "Come and Get Your Love",
+          "year": 1973
+        },
+        {
+          "file": "03 - Ozzy & Colin's Mix/Europe - The Final Countdown.mp3",
+          "artist": "Europe",
+          "title": "The Final Countdown",
+          "year": 1986
+        }
+      ],
+      "dedication": "In loving memory of my sister's dog and cat Ozzy & Colin.\nRest in Peace the best boys"
+    },
+    {
+      "id": "humanslop",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7004",
+      "title": "HumanSlop",
+      "shortName": "HumanSlop",
+      "folder": "04 - HumanSlop",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "Walkman",
+      "tracks": [
+        {
+          "file": "04 - HumanSlop/Van Halen - Ain't Talkin' 'Bout Love.mp3",
+          "artist": "Van Halen",
+          "title": "Ain't Talkin' 'Bout Love",
+          "year": 1978
+        },
+        {
+          "file": "04 - HumanSlop/Deftones - Be Quiet And Drive (Far Away).mp3",
+          "artist": "Deftones",
+          "title": "Be Quiet and Drive (Far Away)",
+          "year": 1997
+        },
+        {
+          "file": "04 - HumanSlop/Elton John - I'm Still Standing.mp3",
+          "artist": "Elton John",
+          "title": "I'm Still Standing",
+          "year": 1983
+        },
+        {
+          "file": "04 - HumanSlop/Kiss - I Was Made For Lovin' You.mp3",
+          "artist": "Kiss",
+          "title": "I Was Made for Lovin' You",
+          "year": 1979
+        },
+        {
+          "file": "04 - HumanSlop/Blue Öyster Cult - (Don't Fear) The Reaper.mp3",
+          "artist": "Blue Öyster Cult",
+          "title": "(Don't Fear) The Reaper",
+          "year": 1976
+        }
+      ]
+    },
+    {
+      "id": "cybertechnics",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7005",
+      "title": "Cybertechnics",
+      "shortName": "Cyber",
+      "folder": "05 - Cybertechnics",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "SmallSpeaker",
+      "tracks": [
+        {
+          "file": "05 - Cybertechnics/Petite Meller - High Forever (Marlon Hoffstadt Remix).mp3",
+          "artist": "Petite Meller",
+          "title": "High Forever (Marlon Hoffstadt Remix)",
+          "year": 2026
+        },
+        {
+          "file": "05 - Cybertechnics/P.T. Adamczyk - The Rebel Path.mp3",
+          "artist": "P.T. Adamczyk",
+          "title": "The Rebel Path",
+          "year": 2020
+        },
+        {
+          "file": "05 - Cybertechnics/P.T. Adamczyk, Sora Lion - Hardest to Be.mp3",
+          "artist": "P.T. Adamczyk, Sora Lion",
+          "title": "Hardest to Be",
+          "year": 2023
+        },
+        {
+          "file": "05 - Cybertechnics/P.T. Adamczyk - The Heist.mp3",
+          "artist": "P.T. Adamczyk",
+          "title": "The Heist",
+          "year": 2020
+        },
+        {
+          "file": "05 - Cybertechnics/Rosa Walton, Hallie Coggins - I Really Want to Stay at Your House.mp3",
+          "artist": "Rosa Walton, Hallie Coggins",
+          "title": "I Really Want to Stay at Your House",
+          "year": 2020
+        },
+        {
+          "file": "05 - Cybertechnics/SAMURAI, Refused - Never Fade Away.mp3",
+          "artist": "SAMURAI, Refused",
+          "title": "Never Fade Away",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "sagiku",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7006",
+      "title": "Sagiku",
+      "shortName": "Sagiku",
+      "folder": "06 - Sagiku",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "Clean",
+      "tracks": [
+        {
+          "file": "06 - Sagiku/Hatsune Miku - Miku.mp3",
+          "artist": "Hatsune Miku",
+          "title": "Miku",
+          "year": 2016
+        },
+        {
+          "file": "06 - Sagiku/Hatsune Miku - Hand in Hand.mp3",
+          "artist": "Hatsune Miku",
+          "title": "Hand in Hand",
+          "year": 2015
+        },
+        {
+          "file": "06 - Sagiku/Hatsune Miku - M@GICAL☆CURE! LOVE ♥ SHOT.mp3",
+          "artist": "Hatsune Miku",
+          "title": "M@GICAL☆CURE! LOVE ♥ SHOT!",
+          "year": 2022
+        },
+        {
+          "file": "06 - Sagiku/Hatsune Miku & Kasane Teto - Mesmerizer.mp3",
+          "artist": "Hatsune Miku & Kasane Teto",
+          "title": "Mesmerizer",
+          "year": 2024
+        },
+        {
+          "file": "06 - Sagiku/Hatsune Miku - PoPiPo.mp3",
+          "artist": "Hatsune Miku",
+          "title": "PoPiPo",
+          "year": 2008
+        },
+        {
+          "file": "06 - Sagiku/Hatsune Miku - Tell Your World.mp3",
+          "artist": "Hatsune Miku",
+          "title": "Tell Your World",
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "id": "jaegers_favorites",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7007",
+      "title": "Jaeger's Favorites",
+      "shortName": "Jaeger's",
+      "folder": "07 - Jaeger's Favorites",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "WornCassette",
+      "tracks": [
+        {
+          "file": "07 - Jaeger's Favorites/Кино - Спокойная ночь.mp3",
+          "artist": "Кино",
+          "title": "Спокойная ночь",
+          "year": 1988
+        },
+        {
+          "file": "07 - Jaeger's Favorites/Michael Jackson - Smooth Criminal.mp3",
+          "artist": "Michael Jackson",
+          "title": "Smooth Criminal",
+          "year": 1987
+        },
+        {
+          "file": "07 - Jaeger's Favorites/The Cranberries - Zombie.mp3",
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "year": 1994
+        },
+        {
+          "file": "07 - Jaeger's Favorites/The Offspring - Gone Away.mp3",
+          "artist": "The Offspring",
+          "title": "Gone Away",
+          "year": 1997
+        },
+        {
+          "file": "07 - Jaeger's Favorites/ABBA - Gimme! Gimme! Gimme!.mp3",
+          "artist": "ABBA",
+          "title": "Gimme! Gimme! Gimme!",
+          "year": 1979
+        }
+      ]
+    },
+    {
+      "id": "skyrim",
+      "tpl": "6a0e5a7c0b1d4e2f3a5c7008",
+      "title": "The Elder Scrolls V: Skyrim",
+      "shortName": "Skyrim",
+      "subtitle": "Jeremy Soule",
+      "folder": "08 - Skyrim",
+      "base": "item_info_recorder_tape_courier_01",
+      "price": 18000,
+      "filter": "Clean",
+      "tracks": [
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Ancient Stones.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Ancient Stones",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Awake.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Awake",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Distant Horizons.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Distant Horizons",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Dragonborn.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Dragonborn",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Far Horizons.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Far Horizons",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - From Past to Present.mp3",
+          "artist": "Jeremy Soule",
+          "title": "From Past to Present",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Secunda.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Secunda",
+          "year": 2011
+        },
+        {
+          "file": "08 - Skyrim/Jeremy Soule - Unbroken Road.mp3",
+          "artist": "Jeremy Soule",
+          "title": "Unbroken Road",
+          "year": 2011
+        }
+      ],
+      "achievement": {
+        "id": "6a0e5a7c0b1d4e2f3a5c70e0",
+        "name": "Dragonborn",
+        "description": "Kill 10 enemies (scavs, raiders, bosses or PMCs) with any melee weapon. Reward: Mixtape \"The Elder Scrolls V: Skyrim\".",
+        "kills": 10,
+        "target": "Any",
+        "weaponParent": "5447e1d04bdc2dff2f8b4567",
+        "equipment": [],
+        "rarity": "Legendary",
+        "image": "playabletapes_dragonborn"
+      }
+    }
+  ],
+  "musicTapes": {
+    "category": "6a0e5a7c0b1d4e2f3a5c70c0",
+    "name": "Music Tapes"
+  },
+  "starterGift": {}
+}
